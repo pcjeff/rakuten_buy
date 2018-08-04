@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
-import unittest, time, re, yaml
+import unittest, time, re, yaml, sys
 
 url = "https://www.google.com/"
 
@@ -61,5 +61,5 @@ def buy(config):
     print('finish...')
 
 if __name__ == '__main__':
-    config = read_config('config.yml')
+    config = read_config(sys.argv[1])
     buy(config)
