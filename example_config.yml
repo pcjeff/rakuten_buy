@@ -1,0 +1,10 @@
+login:
+        email: "your-email"
+        password: "email-password"
+page: "item_page" 
+
+buy:
+        phone: "your-phone-num"
+        province: "新北市"
+        city: "新店區"
+        address: "新北市新店區北新路三段 207-5 號 13 樓 deepq"
